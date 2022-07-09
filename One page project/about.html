@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style_2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+<nav> 
+    <a href="index_2.html"><img src="./image/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index_2.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="hideMenu()"></i>
+</nav>
+<h1>About Us</h1>
+    </section>
+
+<!--About us -->
+<section class="about-us">
+    <div class="row">
+        
+        <div class="about-col">
+            <h1>We are the world largest university</h1>
+            <p>Honestly you have taught me more in a hour than my own university has taught me in 3.You make it so easy to learn and to understand.Honestly you have taught me more in a hour than my own university has taught me.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="image/about.jpg">
+        </div>
+    </div>
+
+</section>
+  
+
+<!--Footer-->
+<section class="footer">
+<h4>About Us</h4>
+<p>Honestly you have taught me more in a hour than my own university has taught me in 3 . <br> You make it so easy to learn and to understand.</p>
+<div class="icons">
+    <img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/>
+    <img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/>
+    <img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"/>
+    <img src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/>
+</div>
+</section>
+
+    <!--javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

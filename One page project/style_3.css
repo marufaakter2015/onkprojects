@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin: 1px;
+}
+.background{
+    min-height: 90vh;
+    width: 70%;
+    background-color:blue; 
+    margin-left: 15%;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+.background_2{
+    min-height: 100vh;
+    width: 50vh;
+    flex-basis: 85%;
+    background-color:lightgoldenrodyellow;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 7%;
+    display: flex;
+   
+}
+.text-box {
+    width: 70%;
+    margin-left: 40px;
+    
+}
+.text-box h2 {
+    padding-left: 22%;
+    font-size:30px;
+    color:darkmagenta;
+    
+
+}
+.text-box h1 {
+    font-size:55px;
+    padding-left: 50%;
+    color:crimson;
+}
+div img {
+    height: 90px;
+    margin-left: 50%;
+    border-radius: 50%;
+}
+.section-title span {
+    color:green;
+}
+.text-box h3 {
+    font-size: 50px;
+    color:crimson;
+    padding-top: 10px; 
+    -webkit-text-stroke-width: 1px; 
+     -webkit-text-stroke-color: black; 
+    
+    margin-left: 17%;
+}
+.text-box p {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 110px;
+    color: darkmagenta;
+}
+.text-box h4 {
+    font-size: 25px;
+    color: darkmagenta;
+}
+.text-box h5 {
+    font-size:20px ;
+}
+hr.new1 {
+    border-top: 2px solid blue;
+  }
+  .footer p {
+      color:white;
+      width: 100%;
+      background-color: darkslateblue;
+      box-sizing: border-box;
+      margin-right: 200px;
+    margin-top: 20%;
+    text-align: center;
+    margin-left: 70px;
+  }
